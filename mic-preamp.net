@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\esalazar\git\mic-preamp\mic-preamp.sch)
-    (date "8/5/2014 10:02:17 PM")
+    (source C:/Users/esalazar/git/mic-preamp/mic-preamp.sch)
+    (date "8/5/2014 10:46:18 PM")
     (tool "Eeschema (2014-08-01 BZR 5042)-product"))
   (components
     (comp (ref MIC1)
@@ -10,7 +10,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1A0F4))
     (comp (ref R7)
-      (value 4.7k)
+      (value 2.2k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1A254))
@@ -70,27 +70,27 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1C27F))
     (comp (ref R6)
-      (value 4.7k)
+      (value 15k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1C903))
     (comp (ref R5)
-      (value 4.7k)
+      (value 1.8k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1CBD9))
     (comp (ref R4)
-      (value 4.7k)
+      (value 3.9k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1CCA2))
     (comp (ref R3)
-      (value 4.7k)
+      (value 6.8k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1CD72))
     (comp (ref R2)
-      (value 4.7k)
+      (value 470)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 53E1CE17))
@@ -150,6 +150,41 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E2396F)))
   (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part POT)
+      (description Potentionmetre)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_4)
       (description "Symbole general de connecteur")
       (fields
@@ -167,6 +202,21 @@
       (pins
         (pin (num 1) (name MIC+) (type unspc))
         (pin (num 2) (name MIC-) (type unspc))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
     (libpart (lib linear) (part LM2902N)
       (aliases
         (alias LM324)
@@ -214,64 +264,14 @@
         (pin (num 11) (name +) (type input))
         (pin (num 12) (name GND) (type power_in))
         (pin (num 13) (name ~) (type openCol))
-        (pin (num 14) (name ~) (type openCol))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part POT)
-      (description Potentionmetre)
-      (fields
-        (field (name Reference) RV)
-        (field (name Value) POT))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 14) (name ~) (type openCol)))))
   (libraries
     (library (logical conn)
       (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\conn.lib))
-    (library (logical linear)
-      (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\linear.lib))
     (library (logical visgence_parts)
       (uri C:\Users\esalazar\git\visgence_parts\visgence_parts.lib))
+    (library (logical linear)
+      (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\linear.lib))
     (library (logical device)
       (uri C:\Users\esalazar\kicad-winbuilder\kicad\share\library\device.lib)))
   (nets

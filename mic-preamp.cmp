@@ -1,0 +1,206 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/5/2014 10:22:00 PM
+
+BeginCmp
+TimeStamp = /53E1AA9F;
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = visgence_parts:SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1A2B4;
+Reference = C2;
+ValeurCmp = 4.7u;
+IdModule  = visgence_parts:SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1B3DD;
+Reference = C3;
+ValeurCmp = 22p;
+IdModule  = visgence_parts:SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E235E1;
+Reference = D1;
+ValeurCmp = pwr;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1DD8D;
+Reference = D2;
+ValeurCmp = 6db;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1DF43;
+Reference = D3;
+ValeurCmp = 0db;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1E045;
+Reference = D4;
+ValeurCmp = -6db;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1E0E1;
+Reference = D5;
+ValeurCmp = -12db;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1A0F4;
+Reference = MIC1;
+ValeurCmp = MICROPHONE;
+IdModule  = visgence_parts:MIC9.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E22293;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = Connect:bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E2396F;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1CE17;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1CD72;
+Reference = R3;
+ValeurCmp = 4.7k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1CCA2;
+Reference = R4;
+ValeurCmp = 4.7k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1CBD9;
+Reference = R5;
+ValeurCmp = 4.7k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1C903;
+Reference = R6;
+ValeurCmp = 4.7k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1A254;
+Reference = R7;
+ValeurCmp = 4.7k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1A9AD;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1A94D;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1AD87;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1AEEE;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1E7B4;
+Reference = R12;
+ValeurCmp = 470;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1EA01;
+Reference = R13;
+ValeurCmp = 470;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1EA53;
+Reference = R14;
+ValeurCmp = 470;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1EB41;
+Reference = R15;
+ValeurCmp = 470;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1B578;
+Reference = R16;
+ValeurCmp = 470;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1B6F8;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = visgence_parts:TC33X-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1A34B;
+Reference = U1;
+ValeurCmp = MCP6234-E/SL;
+IdModule  = SMD_Packages:SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E1C27F;
+Reference = U2;
+ValeurCmp = LM339;
+IdModule  = SMD_Packages:SO14E;
+EndCmp
+
+EndListe
