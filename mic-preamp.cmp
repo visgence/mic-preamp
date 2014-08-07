@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/5/2014 10:22:00 PM
+Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/6/2014 9:32:25 PM
 
 BeginCmp
 TimeStamp = /53E1AA9F;
@@ -19,6 +19,13 @@ TimeStamp = /53E1B3DD;
 Reference = C3;
 ValeurCmp = 22p;
 IdModule  = visgence_parts:SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E30428;
+Reference = C4;
+ValeurCmp = 47u;
+IdModule  = visgence_parts:SM1206POL_VIS;
 EndCmp
 
 BeginCmp
@@ -80,42 +87,42 @@ EndCmp
 BeginCmp
 TimeStamp = /53E1CE17;
 Reference = R2;
-ValeurCmp = 4.7k;
+ValeurCmp = 470;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E1CD72;
 Reference = R3;
-ValeurCmp = 4.7k;
+ValeurCmp = 6.8k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E1CCA2;
 Reference = R4;
-ValeurCmp = 4.7k;
+ValeurCmp = 3.9k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E1CBD9;
 Reference = R5;
-ValeurCmp = 4.7k;
+ValeurCmp = 1.8k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E1C903;
 Reference = R6;
-ValeurCmp = 4.7k;
+ValeurCmp = 15k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
 BeginCmp
 TimeStamp = /53E1A254;
 Reference = R7;
-ValeurCmp = 4.7k;
+ValeurCmp = 2.2k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
