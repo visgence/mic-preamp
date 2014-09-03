@@ -1,4 +1,4 @@
-update=8/5/2014 9:27:02 PM
+update=9/2/2014 11:29:24 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -90,3 +88,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=C:/Users/esalazar/git/visgence_parts/visgence_parts
+[general]
+version=1

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-01 BZR 5042)-product   date = 8/6/2014 9:32:25 PM
+Cmp-Mod V01 Created by Cvpcb (2014-08-02 BZR 5044)-product   date = 9/2/2014 11:33:23 PM
 
 BeginCmp
 TimeStamp = /53E1AA9F;
@@ -150,7 +150,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53E1AEEE;
 Reference = R11;
-ValeurCmp = 10k;
+ValeurCmp = 47k;
 IdModule  = visgence_parts:SM0603_VIS;
 EndCmp
 
