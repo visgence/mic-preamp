@@ -3,7 +3,7 @@
   (general
     (links 61)
     (no_connects 58)
-    (area 44 43 92.000001 109.000001)
+    (area 46.624999 46.624999 83.375001 103.375001)
     (thickness 1.6)
     (drawings 14)
     (tracks 0)
@@ -801,7 +801,7 @@
     (fp_text reference R11 (at 0 -1.016 90) (layer F.SilkS)
       (effects (font (size 0.508 0.508) (thickness 0.1143)))
     )
-    (fp_text value 10k (at 0 1.143 90) (layer F.SilkS)
+    (fp_text value 47k (at 0 1.143 90) (layer F.SilkS)
       (effects (font (size 0.508 0.508) (thickness 0.1143)))
     )
     (fp_line (start -1.143 -0.635) (end 1.143 -0.635) (layer F.SilkS) (width 0.127))
@@ -1102,9 +1102,9 @@
     )
   )
 
-  (module visgence_parts:LOGO (layer F.Cu) (tedit 516D6A74) (tstamp 53E2F94B)
+  (module visgence_parts:LOGO (layer F.Cu) (tedit 5406A889) (tstamp 53E2F94B)
     (at 56 88)
-    (fp_text reference G*** (at 0 3.63982) (layer F.SilkS) hide
+    (fp_text reference G1 (at 0 3.63982) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value LOGO (at 0 -3.63982) (layer F.SilkS) hide
@@ -1361,8 +1361,10 @@
       (xy 6.77418 -2.032) (xy 6.77418 -2.032)) (layer B.SilkS) (width 0.00254))
   )
 
-  (gr_line (start 50 103.3) (end 80 103.3) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 50.1 46.7) (end 80 46.7) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 46.7 100) (end 46.7 50) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 80 103.3) (end 50 103.3) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 83.3 50) (end 83.3 100) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 50 46.7) (end 80 46.7) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text "2014 Visgence Inc." (at 49 75 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -1381,8 +1383,6 @@
   (gr_text "GND\n" (at 57.25 57 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 46.7 50) (end 46.7 100) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 83.3 100) (end 83.3 50) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 80 100) (end 83.3 100) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 50 100) (end 50 103.3) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 50 50) (end 46.7 50) (angle 90) (layer Edge.Cuts) (width 0.15))
